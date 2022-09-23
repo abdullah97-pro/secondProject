@@ -55,25 +55,47 @@
 
 #survey-form{
     
-    width: 65%;
+    width: 55%;
     /* position: absolute; */
-    margin-left: 17.5%;
+    margin-left: 20% ;
     background-color: rgba(27, 27, 50, 0.8);
-<<<<<<< HEAD
     border-radius: 10px;
-    padding: 40px;
-
-=======
+    padding: 2.5%;
+    color: #ccc;
 }
 
-/* **************** FORM STYLE *********************** */
+input[type=text],input[type=email],input[type=number], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
 
-#survey-form {
-    background-color: rgba(27, 27, 50, 0.8);
-    width: 50%;
-<<<<<<< HEAD
->>>>>>> 3693304377fe27c603c2891f9d3d939f86d0cdcc
-=======
-    position:relative
->>>>>>> a87f0886a3fed496d72df2a7d9524dddb4c9edf3
-}
+  input[type=radio], input[type=checkbox]{
+    margin-bottom: 10px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  label{
+    font-weight:bold;
+    font-size: larger;
+    line-height: 1.5;
+  }
