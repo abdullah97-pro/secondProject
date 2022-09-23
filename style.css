@@ -59,7 +59,17 @@
     /* position: absolute; */
     margin-left: 17.5%;
     background-color: rgba(27, 27, 50, 0.8);
+<<<<<<< HEAD
     border-radius: 10px;
     padding: 40px;
 
+=======
+}
+
+/* **************** FORM STYLE *********************** */
+
+#survey-form {
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 50%;
+>>>>>>> 3693304377fe27c603c2891f9d3d939f86d0cdcc
 }
