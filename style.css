@@ -60,8 +60,12 @@
     margin-left: 20% ;
     background-color: rgba(27, 27, 50, 0.8);
     border-radius: 10px;
+<<<<<<< HEAD
     padding: 2.5%;
     color: #ccc;
+=======
+    padding: 40px;
+>>>>>>> 43a610456a08443cf8c0dff67becb3e76563a6bd
 }
 
 input[type=text],input[type=email],input[type=number], textarea, select {
@@ -75,6 +79,7 @@ input[type=text],input[type=email],input[type=number], textarea, select {
     margin-bottom: 30px;
   }
 
+<<<<<<< HEAD
   input[type=radio], input[type=checkbox]{
     margin-bottom: 10px;
   }
@@ -99,3 +104,6 @@ input[type=text],input[type=email],input[type=number], textarea, select {
     font-size: larger;
     line-height: 1.5;
   }
+=======
+
+>>>>>>> 43a610456a08443cf8c0dff67becb3e76563a6bd
