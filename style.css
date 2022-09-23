@@ -50,14 +50,11 @@
     padding-top: 0;
 }
 
+/* **************** FORM STYLE *********************** */
+
 .formSize{
     background-color: rgba(27, 27, 50, 0.8);
 }
 
-/* **************** FORM STYLE *********************** */
 
-#survey-form {
-    background-color: rgba(27, 27, 50, 0.8);
-    width: 50%;
-    position:relative
-}
+
