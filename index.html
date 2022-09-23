@@ -22,7 +22,36 @@
                 <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
                 <label for="number" id="number-label">Age (optional)</label><br>
                 <input type="number" name="number" id="number" placeholder="Age" min="10" max="200"><br>
+
+                <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label><br>
+                <select name="dropdown" id="dropdown">
+                    <option value="" disabled selected >Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="fullTimeJob">Full time job</option>
+                    <option value="fullTimeLearner">Full time learner</option>
+                    <option value="preferNotToSay">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="radioGroup" id="radioGroup">Would you recommend freeCodeCamp to a friend?</label><br>
+                <input type="radio" name="definitely" id="definitely" value="Definitely"><br>
+                <input type="radio" name="maybe" id="maybe" value="Maybe"><br>
                 
+                <label for="dropdown2" id="dropdown2-label">What is your favorite feature of freeCodeCamp?</label><br>
+                <select name="dropdown2" id="dropdown2">
+                    <option value="" disabled selected >Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open source</option>
+                </select><br>
+
+                <label for="checkboxGroup" id="checkboxGroup">What would you like to see improved? (Check all that apply)</label><br>
+                <label for="cbox1"><input type="checkbox" name="cbox1" id="cbox1" value="frontEndProjects">Front-end Projects</label>
+                <label for="cbox2"><input type="checkbox" name="cbox2" id="cbox2" value="backEndProjects">Back-end Projects</label>
+                <label for="cbox3"><input type="checkbox" name="cbox3" id="cbox3" value="dataVisualization">Data Visualization</label>
+                <label for="cbox4"><input type="checkbox" name="cbox4" id="cbox4" value="challenges">Challenges</label>
+                <label for="cbox5"><input type="checkbox" name="cbox5" id="cbox5" value="openSource">Open Source Community</label>
             </form>
         </section>
     </artical>
